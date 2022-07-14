@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ValueTuple" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BradSeven.Common\BradSeven.Common.csproj" />
+    <ProjectReference Include="..\BradSeven.Data\BradSeven.Data.csproj" />
+    <ProjectReference Include="..\BradSeven\BradSeven.Service.csproj" />
+  </ItemGroup>
+
+</Project>
